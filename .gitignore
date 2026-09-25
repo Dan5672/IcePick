@@ -1,0 +1,7 @@
+# Scan results and heartbeat logs (contain machine-specific data)
+IcePick-Output/
+
+# Temporary files from tools and tests
+_gui-shot.ps1
+*.log
+*.err
