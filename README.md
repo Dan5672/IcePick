@@ -127,7 +127,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tests\Run-Tests.ps1         
 powershell -NoProfile -ExecutionPolicy Bypass -File tests\Run-Tests.ps1 -Filter B01  # one test
 ```
 
-The test suite has no dependencies. It covers every finding in [`CODE_REVIEW_REPORT.md`](CODE_REVIEW_REPORT.md) (B01–B21), user-reported freeze times, and an end-to-end acceptance test. In that test a known crash sequence must produce exactly one correctly timed shutdown with the expected top cause.
+The test suite has no dependencies. It has a regression test for each fixed issue (B01–B21), plus tests for user-reported freeze times and an end-to-end acceptance test. In that test a known crash sequence must produce exactly one correctly timed shutdown with the expected top cause.
 
 <details>
 <summary><strong>Project layout</strong></summary>
