@@ -27,13 +27,13 @@ Hard freezes are the worst kind of PC problem. The screen locks, you hold the po
 
 ## Features
 
-- 🔍 **Reconstructs every unexpected shutdown.** It works out the last moment the PC was known to be alive and when it rebooted, with a timing confidence for each shutdown. It tells a blue screen apart from a forced power-off or a sudden reset.
-- 🧊 **Correlates the minutes before each freeze.** GPU driver timeouts, hardware (WHEA) errors, disk and controller resets, memory exhaustion and thermal throttling logged just before a freeze are linked to it.
-- 📋 **Ranks possible causes, with next steps.** Each cause lists its evidence and what to try, such as a clean GPU driver install, MemTest86, SSD firmware or BIOS settings.
-- 💓 **Freeze monitor** for lockups that leave nothing in the logs. It records CPU, memory, disk, GPU and temperature every few seconds, and writes straight to disk so the last readings survive a hard reset.
-- 🕒 **"I noticed a freeze at…"** lets you enter the time a freeze happened, so the report looks at exactly that moment.
-- 🛡️ **Honest about gaps.** A Data coverage section shows what couldn't be read, so "nothing found" is never mistaken for "no problem".
-- 📦 **Portable and shareable.** Every scan saves its full evidence, so the report can be rebuilt on another machine (`-ReplayFrom`), for example by whoever is helping you.
+- **Reconstructs every unexpected shutdown.** It works out the last moment the PC was known to be alive and when it rebooted, with a timing confidence for each shutdown. It tells a blue screen apart from a forced power-off or a sudden reset.
+- **Correlates the minutes before each freeze.** GPU driver timeouts, hardware (WHEA) errors, disk and controller resets, memory exhaustion and thermal throttling logged just before a freeze are linked to it.
+- **Ranks possible causes, with next steps.** Each cause lists its evidence and what to try, such as a clean GPU driver install, MemTest86, SSD firmware or BIOS settings.
+- **Freeze monitor** for lockups that leave nothing in the logs. It records CPU, memory, disk, GPU and temperature every few seconds, and writes straight to disk so the last readings survive a hard reset.
+- **"I noticed a freeze at…"** lets you enter the time a freeze happened, so the report looks at exactly that moment.
+- **Honest about gaps.** A Data coverage section shows what couldn't be read, so "nothing found" is never mistaken for "no problem".
+- **Portable and shareable.** Every scan saves its full evidence, so the report can be rebuilt on another machine (`-ReplayFrom`), for example by whoever is helping you.
 
 ## Quick start
 
